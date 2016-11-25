@@ -1,6 +1,5 @@
 #include<stdbool.h>
 #include<stdio.h>
-#include<stdlib.h>
 
 void fors(void) {
   for(size_t i = 10; i; --i) {
@@ -14,7 +13,6 @@ void fors(void) {
   for(size_t i = 9; i <= 9; --i) {
     printf("something else else %zu\n", i);
   }
-	   
 }
 
 int main(int argc, char* argv[argc+1]) {
@@ -29,5 +27,4 @@ int main(int argc, char* argv[argc+1]) {
       puts("but this does\n");
     } while( false );
   }
-  return EXIT_SUCCESS;
 }

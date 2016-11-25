@@ -1,5 +1,4 @@
 #include<stdio.h>
-#include<stdlib.h>
 
 int main()
 {
@@ -17,5 +16,4 @@ int main()
   printf("literal -1U turns out to %u\t0x%08x\n", u4, u4);
   printf("literal -1UL turns out to %lu\t0x%0lx\n", ul1, ul1);
   printf("literal -1ULL turns out to %llu\t0x%llx\n", ull1, ull1);
-  return EXIT_SUCCESS;
 }

@@ -29,5 +29,4 @@ int main(int argc, char* argv[argc+1]) {
     }
     printf("heron: a = %.5e,\tx=%.5e,\ta*x=%.12f\n", a, x, a*x);
   }
-  return EXIT_SUCCESS;
 }
